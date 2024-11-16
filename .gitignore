@@ -1,0 +1,5 @@
+# Ignore environment file
+.env
+
+# Ignore Google Cloud credentials JSON file
+prj-ai-agent-441303-g1-84adf963ac9d.json
