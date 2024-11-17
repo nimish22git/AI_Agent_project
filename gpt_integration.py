@@ -11,7 +11,7 @@ load_dotenv()
 api_key = os.getenv("OPENAI_API_KEY")
 openai.api_key = api_key
 
-# Print the API key to verify it is loaded correctly (for debugging purposes)
+# Printing API key to verify it is loaded correctly (for debugging purposes)
 print(f"OpenAI API Key: {api_key}")
 
 def extract_info(prompt):
