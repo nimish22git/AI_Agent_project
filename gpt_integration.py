@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 
 
-# Load environment variables from .env file
+
 load_dotenv()
 
 
@@ -16,13 +16,13 @@ print(f"OpenAI API Key: {api_key}")
 
 def extract_info(prompt):
     try:
-        # Use the updated API method
+        
         response = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
             messages=[{"role": "user", "content": prompt}],
             max_tokens=100
         )
-        # Extract the content from the response
+        
         reply = response.choices[0].message.content.strip()
         return reply
     except Exception as e:
