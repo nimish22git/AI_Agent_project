@@ -80,3 +80,5 @@ All contributors and open-source libraries used in this project.
 Next Steps:
 Add actual details where placeholders like your-openai-api-key are mentioned.
 Ensure that sensitive files like .env and .json are not included in your GitHub repository by double-checking your .gitignore.
+
+Here the loom video explanation of the project: https://loom.com/share/9c7e12434c63482b9ed52348644725ff
