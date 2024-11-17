@@ -50,8 +50,7 @@ if uploaded_file:
 
 
 
-
-        # Define the GPT query function
+ # The GPT query function (additional)
 def get_gpt_response(prompt):
     try:
         response = openai.ChatCompletion.create(
